@@ -26,7 +26,7 @@ class DataInjection:
 
     def export_collection_as_dataframe(self):
         """
-        This fuction is fir read data from MongoDB
+        This fuction is for read data from MongoDB
         """
         try:
             database_name= self.data_injection_config.database_name
